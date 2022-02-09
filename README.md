@@ -12,14 +12,18 @@ To get started with this site, please use the following commands:
 4. Mint a NFT!
 
 ### **Smart Contract Info**
+You can find the full smart contract project structured on GitFront:
+https://gitfront.io/r/user-5698640/862f843eb2c63eff3615783f3c26c4976ff5fc7a/mintanft-smartcontract/
+Note: you need to make sure you add your own `hardhat.config.js` file to the root of your contract dir and update the contract address in the referencing files. 
 
-Inside the smartcontract dir, there is a file `MyNFT.sol` that contains the smart contract code.
-The library used for this smart contract can be found at `libraries/Base64.sol`.
-The deploy script utilized for this smart contract can be found at `scripts/deploy.js`.
+The files provided in this repo include:
+- `MyNft.sol` - main smart contract file
+- `scripts/deploy.js` - deploys the smart contract to the testnet
+- `libraries/Base64.sol` - base64 library for encoding and decoding
 
 ### **Dependencies**
-- nodejs/npm
-- hardhat
-- solidity
-- reactjs
-- metamask
+- nodejs/npm - used to run the project
+- hardhat - tool used to help deploy smart contract
+- solidity - lang used to compile smart contract
+- reactjs - used to create site UI
+- metamask - interacts with rinkeby testnet and site, only wallet supported for mint currently
