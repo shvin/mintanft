@@ -12,8 +12,7 @@ To get started with this site, please use the following commands:
 4. Mint a NFT!
 
 ### **Smart Contract Info**
-You can find the full smart contract project structured on GitFront:
-https://gitfront.io/r/user-5698640/862f843eb2c63eff3615783f3c26c4976ff5fc7a/mintanft-smartcontract/
+You can find the full smart contract project structured on [GitFront](https://gitfront.io/r/user-5698640/862f843eb2c63eff3615783f3c26c4976ff5fc7a/mintanft-smartcontract):
 Note: you need to make sure you add your own `hardhat.config.js` file to the root of your contract dir and update the contract address in the referencing files. 
 
 The files provided in this repo include:
