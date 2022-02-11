@@ -12,13 +12,19 @@ To get started with this site, please use the following commands:
 4. Mint a NFT!
 
 ### **Smart Contract Info**
-You can find the full smart contract project structured on [GitFront](https://gitfront.io/r/user-5698640/862f843eb2c63eff3615783f3c26c4976ff5fc7a/mintanft-smartcontract):
+You can find the full smart contract project structured on [GitFront](https://gitfront.io/r/user-5698640/862f843eb2c63eff3615783f3c26c4976ff5fc7a/mintanft-smartcontract/):
 Note: you need to make sure you add your own `hardhat.config.js` file to the root of your contract dir and update the contract address in the referencing files. 
 
-The files provided in this repo include:
-- `MyNft.sol` - main smart contract file
+The files provided in that repo include:
+- `contracts/MyNft.sol` - main smart contract file
 - `scripts/deploy.js` - deploys the smart contract to the testnet
-- `libraries/Base64.sol` - base64 library for encoding and decoding
+- `contracts/libraries/Base64.sol` - base64 library for encoding and decoding
+Please note: these files are not to be ran on the site, please refer to the gitfront repo for the full backend setup.
+
+### ***Todo***
+- [ ] Create a button to let users see the entire collection on rarible or openseas
+- [ ] Mint animations
+- [ ] Show users which edition NFTs they minted out of the collection
 
 ### **Dependencies**
 - nodejs/npm - used to run the project
