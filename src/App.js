@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import './styles/App.css';
 import twitterLogo from './assets/twitter-logo.svg';
@@ -6,8 +7,6 @@ import myNft from './utils/MyNFT.json';
 
 const TWITTER_HANDLE = 'shv1n';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
-const OPENSEA_LINK = '';
-const TOTAL_MINT_COUNT = 50;
 
 const CONTRACT_ADDRESS = "0xcc165a79F695ECc7dFEF96B8aE5E285f44b17a6F";
 
